@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="https://rawgithub.com/systemjs/systemjs/0.19.6/dist/system.js"></script>
+			<script src="https://code.angularjs.org/tools/typescript.js"></script>
+			<script src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js"></script>
+			<script src="https://code.angularjs.org/2.0.0-beta.0/Rx.js"></script>
+			<script src="https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+			<script>
+			System.config({
+			packages: {
+			app: {
+			format: 'register',
+			defaultExtension: 'js'
+				}
+					}
+						});
+			System.import('app.js')
+			.then(null, console.error.bind(console));
+			</script>
+
+    
+
+			<title>Surya's blog</title>
+		</head>
+			
+		<body>
+			<div class="container">
+			<h1>Surya's Blog</h1>
+			<app>Hold on...we're getting it ready for you!!!</app>
+</div>
+		</body>
+
+
+
+<html>
